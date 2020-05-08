@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.MathJax_Display{
+    text-align:left !important;
+    font-size:16px !important;
+    margin:0px !important;
+}
+/*---- HEADER -----*/
+.header{
+    background-color: #3CAAE5;
+    padding: 10px;
+}
+.header #left{
+    text-align: left;
+    color: #fff;
+}
+.header #right{
+    text-align: right;
+    color: #fff;
+}
+.header #right .card-header{
+    text-align: left;
+    color: #000;
+}
+
+
+
+/*----- QUESTION PART -----*/
+.question-part .col-md-9 .card-body{
+    height: 63%;
+}
+.question-part .card-footer #btn-one{
+    background-color: blueviolet;
+    color: #fff;
+}
+.question-part .card-footer #btn-two{
+    background-color: red;
+    color: #fff;
+}
+.question-part .card-footer #btn-three{
+    background-color: blueviolet;
+    color: #fff;
+}
+.question-part .card-body .numbers{
+    display: flex;
+}
+.question-part .card-body .one{
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px;
+    margin-left: 5px;
+}
+/*.question-part .col-md-3 .card-body{
+    height: 61%;
+    overflow-y: scroll;
+}*/
+.question-part .col-md-3 .card-body .col{
+    margin-top: 2px;
+}
+
+
+@media (max-width: 767px){
+    .header #left{
+        text-align: center;
+    }
+    .header #right{
+        text-align: center;
+    }
+    .question-part .col-md-9 .card-body{
+        height: 100%;
+    }
+    .question-part .col-md-3 .card-body{
+        height: 100%;
+    }
+}
+.btnsection{
+    padding: 4px;
+    border:1px solid green;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.btnsection:hover{
+    background: green;
+    color:white;
+}
+.que , .qnum {
+    font-size: 16px;
+}
+@font-face{
+    font-family:Devlys;
+    src: url('../font/mfdev010.ttf');
+}
+.devlys-hindi{
+    font-family: Devlys;
+}
+@font-face{
+    font-family:Roboto;
+    src: url('../font/Roboto-Regular.ttf');
+}
+.roboto-eng{
+    font-family: Roboto;
+}

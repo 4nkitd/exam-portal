@@ -1,0 +1,261 @@
+.bg-color-781515{
+	background-color:#094477;
+	 background-image: linear-gradient(to left bottom, #094477, #f06427);
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-position:center;
+}
+.header-text-white h3{
+	color:#fff;
+	text-transform: uppercase;
+	font-size:24px;
+}
+.general-text h4{
+	font-size: 22px;
+	font-weight: bold;
+}
+.mobile-text p:nth-child(1) {
+	font-size: 16px;
+	color:#F61111;
+	padding-bottom:0px;
+}
+.mobile-text p:nth-child(2) {
+	font-size: 16px;
+	color:#F61111;
+}
+.please-text h4{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.please-text p{
+	font-size: 16px;
+	font-weight:bold;
+	
+}
+.charts-text p{
+	font-size:15px;
+}
+
+.clock-will-text li{
+	font-size: 15px;
+}
+.answer-qustion-text{
+	padding: 40px 0px 40px 50px;
+}
+.answer-qustion-text li:nth-child(1){
+	color:#3CEE19;
+	font-size:15px;
+	font-weight:bold;
+}
+.answer-qustion-text li:nth-child(2){
+	color:#FC1111;
+	font-size:15px;
+	font-weight:bold;
+}
+.answer-qustion-text li:nth-child(3){
+	color:#2D2482;
+	font-size:15px;
+	font-weight:bold;
+}
+.answer-qustion-text li:nth-child(4){
+	color:#6F6969;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.navigation-text{
+	padding:15px 0px 0px 15px;
+}
+.navigation-text p{
+	color:#F61111;
+}
+.calcilate-text{
+	padding:15px 0px 0px 15px;
+}
+.calcilate-text p{
+	color:#F61111;
+}
+.correct-answes-text{
+	list-style:none;
+}
+.correct-answes-text li{
+	font-size:15px;
+	padding-bottom:10px;
+}
+.disclaimer{
+		list-style:none;
+}
+.disclaimer li{
+		font-size:15px;
+		padding-bottom: 25px;
+}
+.online-text{
+	color:#F61111;
+	font-weight: bold;
+}
+.main-card-css-start {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	box-shadow: 0px 2px 8px #000;
+
+	margin-bottom: 30px;
+	padding: 0px 20px;
+}
+/* Tear and condition page css end*/
+
+/*Popup page css start*/
+.headway-engg{
+	color:#094477;
+	font-size:24px;
+	font-weight: bold;
+	padding:0px 5px;
+}
+.headway-engg:hover{
+	color:#000;
+	
+}
+.welcome-text-headway {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	margin: 20px 0px;
+	border-radiuous: 0px;
+	border-radius: 0px;
+}
+.test-portal-text h3{
+	font-size: 24px;
+
+}
+.test-portal-text h3:hover{
+	color:#094477;
+
+	
+}
+.test-portal-text p{
+	font-size: 15px;
+	padding:15px 0px;
+}
+.online-test-text {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background-color: #000;
+	color: #fff;
+	box-shadow: 0px 6px 8px #E98A25;
+	margin: auto;
+}
+.online-test-text:hover{
+	background-color:#000;
+	color:#fff;
+	border:3px solid #E98A25;
+}
+.text-series-online p{
+	font-size:20px;
+	padding-top:30px;
+}
+.offline-test-text{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background-color: #000;
+	color: #fff;
+	box-shadow: 0px 6px 8px #E98A25;
+	margin: auto;
+}
+.offline-test-text:hover{
+	background-color:#000;
+	color:#fff;
+	border:3px solid #E98A25;
+}
+.text-series-offline p{
+	font-size:16px;
+	padding-top:20px;
+}
+.click-btn-text{
+	text-align: center;
+	padding: 40px 0px 20px 0px;
+}
+.junior-eng-text::after {
+	position: absolute;
+	content: "";
+	height: 100%;
+	background-color: #242424;
+	width: 2px;
+	margin-left: 15px;
+	top: 0;
+	right: 0;
+}
+.login-form-text{
+	background-color:#fff;
+	box-shadow:0px 2px 8px #000;
+	padding:20px 20px;
+	margin-top:20px;
+}
+
+/*Register page css start */
+
+.register-control-css{
+	display: block;
+	width: 90%;
+	height: calc(2.25rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.text-signmm{
+	font-size:15px;
+	font-weight: bold;
+	color:#094477;
+
+}
+.text-signmm:hover{
+	text-decoration:none;
+}
+.login-btn-sun{
+	background-color:#094477;
+	color:#fff;
+}
+.test-register-online h3{
+	color:#094477;
+	font-size:24px;
+	font-weight:501;
+	text-transform:uppercase;
+}
+@font-face{
+	font-family:Devlys;
+	src: url('../font/mfdev010.ttf');
+}
+.devlys-hindi{
+	font-family: Devlys;
+}
+@font-face{
+	font-family:Roboto;
+	src: url('../font/Roboto-Regular.ttf');
+}
+.roboto-eng{
+	font-family: Roboto;
+}

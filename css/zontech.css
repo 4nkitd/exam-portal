@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*----- HEADER ------*/
+.header .fas{
+    font-size: 20px;
+    color: #094477;
+}
+.header #left-header a:hover{
+    text-decoration: none;
+}
+.header #left-header{
+    text-align: right;
+}
+.header #left-header h6{
+    color: #000;
+}
+.header a{
+    color: #094477;
+}
+.header a:hover{
+    text-decoration: none;
+}
+
+/*---- NAVBAR -----*/
+.navbar-default{
+    background-color: #094477;
+}
+.navbar-default .navbar-nav .nav-link{
+    font-weight: 500;
+    color: #fff;
+}
+.navbar-default .navbar-nav .nav-link:hover{
+    color: #EEEEEE;
+}
+
+
+/*----- DASHBOARD -----*/
+.dashboard .card{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+/*------ DETAIL-CARD -----*/
+.detail-card .col-md-3{
+    text-align: right;
+}
+.detail-card #first-card{
+    background-color: #E05B70;
+    height: 140px;
+}
+.detail-card #sec-card{
+    background-color: #16A086;
+    height: 140px;
+}
+.detail-card #third-card{
+    background-color: #418CCC;
+    height: 140px;
+}
+.detail-card #four-card{
+    background-color: #607D8D;
+    height: 140px;
+}
+.detail-card h6{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/*------ MY EXAM  -----*/
+.myexam #btn-right{
+    text-align: right;
+}
+.myexam #btn-right .btn-danger{
+    background-color: #094477;
+    border: none;
+}
+.myexam #exam-headline{
+    background-color: #094477;
+    border-radius: 5px 5px 0px 0px;
+}
+.myexam table p{
+    font-size: 13px;
+}
+.myexam .chngpsd{
+    width: 50%;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.myexam .chngpsd .btn-primary{
+    background-color: #094477;
+}
+.holes{
+    background-color: #094477;
+    border: none;
+}
+.holes:hover{
+    background-color: #094477;
+    border: none;
+}
+
+
+.myexam .result #one{
+    background-color: #16A086;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam .result #one:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam .result #two{
+    background-color: #E05B70;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam .result #two:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam .result #three{
+    background-color: #607D8D;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam .result #three:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam .result #four{
+    background-color: #418CCC;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam .result #four:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam .result #five{
+    background-color: #A5D073;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam .result #five:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam .result #six{
+    background-color: #B661C5;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam .result #six:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam .result #seven{
+    background-color: #B58E7F;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam .result #seven:hover{
+    transform: scale(1.0);
+    transition: all 0.5s;
+}
+.myexam .fixed-h{
+    height: 700px;
+    overflow-y: scroll;
+}
+.myexam .fixed-h ul{
+    line-height: 40px;
+}
+
+
+
+
+/*------ MODAL ------*/
+.myexam table .modal .modal-body #one{
+    background-color: #16A086;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #one:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #two{
+    background-color: #E05B70;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #two:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #three{
+    background-color: #607D8D;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #three:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #four{
+    background-color: #418CCC;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #four:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #five{
+    background-color: #A5D073;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #five:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #six{
+    background-color: #B661C5;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #six:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #seven{
+    background-color: #B58E7F;
+    color: #fff;
+    padding: 15px;
+    height: 80px;
+    transition: all 0.5s;
+}
+.myexam table .modal .modal-body #seven:hover{
+    transform: scale(1.0);
+    transition: all 0.5s;
+}
+
+
+
+
+/*------ FOOTER ------*/
+.footer{
+    background-color: #094477;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+/*---------------- MEDIA QUERY -----------*/
+@media (max-width: 768px){
+    .header #right-header{
+        text-align: center;
+    }
+    .myexam .chngpsd{
+        width: 100%;
+    }
+}
+@font-face{
+    font-family:Devlys;
+    src: url('../font/mfdev010.ttf');
+}
+.devlys-hindi{
+    font-family: Devlys;
+}
+@font-face{
+    font-family:Roboto;
+    src: url('../font/Roboto-Regular.ttf');
+}
+.roboto-eng{
+    font-family: Roboto;
+}
